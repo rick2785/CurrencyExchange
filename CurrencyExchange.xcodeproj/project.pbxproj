@@ -11,6 +11,10 @@
 		09371AF32554B9AA00A8347F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09371AF22554B9AA00A8347F /* ContentView.swift */; };
 		09371AF52554B9AD00A8347F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09371AF42554B9AD00A8347F /* Assets.xcassets */; };
 		09371AF82554B9AD00A8347F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09371AF72554B9AD00A8347F /* Preview Assets.xcassets */; };
+		09371B042554B9FB00A8347F /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09371B032554B9FB00A8347F /* Home.swift */; };
+		09371B082554BA4300A8347F /* Conversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09371B072554BA4300A8347F /* Conversion.swift */; };
+		09371B0B2554BA8D00A8347F /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09371B0A2554BA8D00A8347F /* Currency.swift */; };
+		09371B0E2554BB0900A8347F /* FetchData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09371B0D2554BB0900A8347F /* FetchData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +24,10 @@
 		09371AF42554B9AD00A8347F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		09371AF72554B9AD00A8347F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		09371AF92554B9AD00A8347F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09371B032554B9FB00A8347F /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		09371B072554BA4300A8347F /* Conversion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Conversion.swift; sourceTree = "<group>"; };
+		09371B0A2554BA8D00A8347F /* Currency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
+		09371B0D2554BB0900A8347F /* FetchData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +60,9 @@
 		09371AEF2554B9AA00A8347F /* CurrencyExchange */ = {
 			isa = PBXGroup;
 			children = (
+				09371B012554B9E400A8347F /* ViewModel */,
+				09371B022554B9ED00A8347F /* Model */,
+				09371B002554B9E000A8347F /* View */,
 				09371AF02554B9AA00A8347F /* CurrencyExchangeApp.swift */,
 				09371AF22554B9AA00A8347F /* ContentView.swift */,
 				09371AF42554B9AD00A8347F /* Assets.xcassets */,
@@ -67,6 +78,31 @@
 				09371AF72554B9AD00A8347F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		09371B002554B9E000A8347F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				09371B032554B9FB00A8347F /* Home.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		09371B012554B9E400A8347F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				09371B0D2554BB0900A8347F /* FetchData.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		09371B022554B9ED00A8347F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				09371B072554BA4300A8347F /* Conversion.swift */,
+				09371B0A2554BA8D00A8347F /* Currency.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +175,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				09371AF32554B9AA00A8347F /* ContentView.swift in Sources */,
+				09371B0B2554BA8D00A8347F /* Currency.swift in Sources */,
+				09371B082554BA4300A8347F /* Conversion.swift in Sources */,
+				09371B042554B9FB00A8347F /* Home.swift in Sources */,
+				09371B0E2554BB0900A8347F /* FetchData.swift in Sources */,
 				09371AF12554B9AA00A8347F /* CurrencyExchangeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
